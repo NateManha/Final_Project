@@ -13,6 +13,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 #main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+.ul{
+  list-style: none;
+}
 </style>
 <title>culture</title>
 <meta charset="UTF-8">
@@ -106,28 +109,60 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 <!-- Page Content -->
   <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey" id="description">
+  <div class="w3-content w3-justify w3-text-grey w3-width-small" id="description">
     <h1 class="w3-text-light-grey w3-center">Food</h1>
 </div>
-<div class="box">
-  <div class="card w3-third">
-    <div class="w3-center">
-      <img id="border" src="W3.CSS_Template_files/airport3.0.jpg" alt="Flights">
-      <h3 class="w3-center">Breakfast</h3>
-    </div>
+<div class="card w3-half w3-width-small">
+  <div class="w3-center">
+      <img class="Hotels" id="culture" src="W3.CSS_Template_files/breakfast.jpg" alt="Hotels">
   </div>
-  <!-- End of class .card -->
+  <h3 class="w3-center">Breakfast</h3>
+  <p class="w3-center">Some common meals for breakfast in Granada are:</p>
+  <ul class="ul w3-center">
+    <li>Toast with tomato, olive oil</li>
+    <li>Toast with butter or jam</li>
+    <li>Tortilla de patatas (Potato omelet)</li>
+  </ul>
+</div>
 
-  <div class="card w3-third w3-width-small">
-      <div class="w3-center">
-          <img class="Hotels" id="culture" src="W3.CSS_Template_files/hotel2.0.jpg" alt="Hotels">
+
+  <div class="card w3-half w3-width-small">
+      <div class="w3-center w3-width-small">
+          <img class="Hotels" id="culture" src="W3.CSS_Template_files/lunch.jpg" alt="Hotels">
       </div>
       <h3 class="w3-center">Lunch</h3>
+      <p class="w3-center">Below are some of the best lunches you can have in Granada:</p>
+      <ul class="ul w3-center">
+        <li>La tortilla del Sacromonte (omelet with sweetbread and ham)</li>
+        <li>La pipirrana (Salad)</li>
+        <li>paella</li>
+      </ul>
   </div>
-
-  <div class="card w3-third">
-    <div class="w3-center"> 
-      <img class="lift" src="W3.CSS_Template_files/restaurant.jpg" alt="Restaurants">
+  <!-- End of class .card -->
+  
+  <div class="card w3-half w3-width-small">
+    <div class="w3-center">
+        <img class="Hotels" id="culture" src="W3.CSS_Template_files/dinner.jpg" alt="Hotels">
     </div>
     <h3 class="w3-center">Dinner</h3>
-  </div>
+    <p class="w3-center">Dinners in Granada can include:</p>
+    <ul class="ul w3-center w3-width-small">
+      <li>Habas con Jamón (Beans and Ham)</li>
+      <li>Jamón de Trevélez (Cured Ham)</li>
+      <li>olla de San Antón (Pork Strew)</li>
+    </ul>
+  </div> 
+
+  <div class="card w3-half w3-width-small">
+    <div class="w3-center">
+        <img class="Hotels" id="culture" src="W3.CSS_Template_files/Dessert.jpg" alt="Hotels">
+    </div>
+    <h3 class="w3-center">Dessert</h3>
+    <p class="w3-center">Some traditional desserts from Granada are:</p>
+    <ul class="ul w3-center w3-width-small w3-container">
+      <li>Piononos de Santa Fe (Pastries)</li>
+      <li>Soplillos de la Alpujarra (Sweet Bread)</li>
+      <li>Huesos De Santo (Almond and cooked Egg yolks)</li>
+    </ul>
+  </div>   
+</div>
